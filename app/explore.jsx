@@ -1,5 +1,5 @@
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import img from "../../assets/images/pexels-lood-goosen-508841-1235706.jpg";
+import img from "../assets/images/pexels-lood-goosen-508841-1235706.jpg";
 
 export default function TabTwoScreen() {
   return (
