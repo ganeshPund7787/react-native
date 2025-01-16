@@ -1,10 +1,15 @@
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import img from "../../assets/images/pexels-lood-goosen-508841-1235706.jpg";
 
 export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
-      <ImageBackground style={styles.image} resizeMode="cover" source={img}>
+      <ImageBackground
+        style={styles.image}
+        resizeMode="cover"
+        source={
+          "https://images.pexels.com/photos/17516403/pexels-photo-17516403/free-photo-of-a-glass-of-coffee-with-milk-being-poured-into-it.jpeg?auto=compress&cs=tinysrgb&w=600"
+        }
+      >
         <Text style={styles.text}>Explre New Prices</Text>
         <Text style={styles.text}>Cold : 220$</Text>
         <Text style={styles.text}>Hot : 320$</Text>

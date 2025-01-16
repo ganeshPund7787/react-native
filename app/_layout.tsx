@@ -29,12 +29,12 @@ export default function RootLayout() {
   if (!loaded) {
     return null;
   }
-
+ 
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="(cofee)" options={{ headerShown: false }} />
+        {/* <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> */}
+        <Stack.Screen name="(coffee)" options={{ headerShown: false }} />
         {/* <Stack.Screen
           name="index"
           options={{ title: "Home", headerShown: false }}
