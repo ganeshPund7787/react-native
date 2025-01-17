@@ -5,19 +5,20 @@ import {
   ImageBackground,
   Pressable,
 } from "react-native";
-import CofeeImgOne from "../assets/images/pexels-chevanon-312418.jpg";
 import { Link } from "expo-router";
 
 const app = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={CofeeImgOne}
+        source={
+          "https://images.pexels.com/photos/2067404/pexels-photo-2067404.jpeg?auto=compress&cs=tinysrgb&w=600"
+        }
         resizeMode="cover"
         style={styles.image}
       >
-        <Text style={styles.title}>Cofee-Shop</Text>
-        <Link href="/explore" style={{ marginHorizontal: "auto" }} asChild>
+        <Text style={styles.title}>Coffee-Shop</Text>
+        <Link href="/contact" style={{ marginHorizontal: "auto" }} asChild>
           <Pressable style={styles.button}>
             <Text style={styles.buttonText}>Explore</Text>
           </Pressable>
